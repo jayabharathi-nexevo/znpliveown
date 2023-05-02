@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/demonliq/znp.demo-nexevo.in/website/
+    - /bin/cp * $DEPLOYPATH
